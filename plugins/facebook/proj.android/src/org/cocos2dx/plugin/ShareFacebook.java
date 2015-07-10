@@ -334,7 +334,7 @@ public class ShareFacebook implements InterfaceShare{
 						if(!"request".equals(key)){
 							
 							buffer.append("\"");
-							buffer.append(values.getString(it.next()));
+							buffer.append(values.getString(key));
 							buffer.append("\",");
 						}
 					}
